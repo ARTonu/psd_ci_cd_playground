@@ -18,4 +18,10 @@ public class GeometryServiceTest {
     void calculateSquareAreaTest() {
         Assertions.assertThat(geometryService.calculateSquareArea(5.0)).isEqualTo(25.0);
     }
+
+    // Anisur Rahman Tonu - Test
+    @Test
+    void calculateTriangleAreaTest() {
+        Assertions.assertThat(geometryService.calculateAreaOfTriangle(10.0,6.0)).isEqualTo(30.0);
+    }
 }

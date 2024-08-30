@@ -9,4 +9,9 @@ public class GeometryService {
     public double calculateSquareArea(double length) {
         return length * length;
     }
+
+    // Anisur Rahman Tonu - Function
+    public double calculateAreaOfTriangle(double base, double height) {
+        return 0.5 * base * height;
+    }
 }
