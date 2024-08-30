@@ -14,4 +14,9 @@ public class GeometryService {
     public double calculateAreaOfTriangle(double base, double height) {
         return 0.5 * base * height;
     }
+
+    // Eftekher Ahmed Aqib - Function
+    public double calculateAreaOfCircle(double radius) {
+        return 3.1416 * radius * radius;
+    }
 }

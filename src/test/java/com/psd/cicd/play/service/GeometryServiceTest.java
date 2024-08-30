@@ -24,4 +24,10 @@ public class GeometryServiceTest {
     void calculateTriangleAreaTest() {
         Assertions.assertThat(geometryService.calculateAreaOfTriangle(10.0,6.0)).isEqualTo(30.0);
     }
+
+    // Eftekher Ahmed Aqib- Test
+    @Test
+    void calculateCircleAreaTest() {
+        Assertions.assertThat(geometryService.calculateAreaOfCircle(5)).isEqualTo(78.54);
+    }
 }
